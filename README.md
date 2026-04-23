@@ -1,11 +1,8 @@
 # 🌀 CyberKinect-V2-Pro (Apple Silicon macOS) v1.0
-**Pro-Grade VJ Engine for Kinect v2 (Apple Silicon macOS)**
 
-![Vibe](https://img.shields.io/badge/Style-Vibecoding-blueviolet)
-![Platform](https://img.shields.io/badge/Platform-macOS--arm64-black)
-![Engine](https://img.shields.io/badge/Engine-Metal-cyan)
+![Preview](PROMO_ART.png)
 
-CYBER KINECT is a high-performance, point-cloud visualization system designed for professional VJing. It leverages the raw power of Apple's Metal API to process millions of points in real-time with zero latency.
+**CyberKinect V2 Pro is a professional high-performance VJ engine for Kinect v2 on Apple Silicon (M1/M2/M3). Built natively with Apple Metal for stable 60 FPS point-cloud rendering. Features 9 visual modes, real-time FFT audio reactivity, auto-calibration, and stage-ready tools like fullscreen and UI toggle. The ultimate VJ artifact for macOS.**
 
 ---
 
@@ -36,12 +33,6 @@ Simply run the installer script:
 chmod +x INSTALL.sh
 ./INSTALL.sh
 ```
-
-### Manual Compilation
-If you want to build manually:
-1. Compile Shaders: `xcrun -sdk macosx metal -c Shaders.metal -o Shaders.air`
-2. Generate Library: `xcrun -sdk macosx metallib Shaders.air -o default.metallib`
-3. Compile Swift: Use the provided `INSTALL.sh` logic for linking.
 
 ---
 
